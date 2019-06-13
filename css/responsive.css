@@ -1,0 +1,13 @@
+@media screen and (min-width: 460px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .note, {
+    grid-template-columns: 55% 30% 5% 5%;
+  }
+
+  .inputField {
+    grid-template-columns: 45% 30%  7% 7%;
+  };

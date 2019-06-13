@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> To Do List </title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Caveat|Luckiest+Guy|Marck+Script" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 class="pageTitle"> My TO DO List</h1>
+        </header>
+        <main class="container">
+            <ul class="list">
+              <li class="note noteHead">
+                  <p class="task">Task</p>
+                  <p class="taskDeadline">Deadline</p>                  
+              </li>
+                <li class="note">
+                    <p class="task">Go to Gymm</p>
+                    <p class="taskDeadline">2019-06-20</p>
+                    <button class="edit" type="button"></button>
+                    <button class="delete" type="button"></button>
+                </li>
+                <li class="note">
+                    <p class="task">Plan Anna's birthday party</p>
+                    <p class="taskDeadline">2019-08-12</p>
+                    <button class="edit" type="button"></button>
+                    <button class="delete" type="button"></button>
+                </li>
+                <li class="note">
+                    <p class="task">Buy concert tickets</p>
+                    <p class="taskDeadline">2019-07-24</p>
+                    <button class="edit" type="button"></button>
+                    <button class="delete" type="button"></button>
+                </li>
+            </ul>
+            <section class="inputField">
+                <input id="textBox" type="text" name="New note" placeholder="To do task" size="50"></input>
+                <input id="deadLine" type="date" name="Deadline"></input>
+                <button id="save" type="button"></button>
+                <button id="clear" type="button" ></button>
+            </section>
+        </main>
+        <footer>
+            <p class = "signiture"> &#169; IuliaElizaS 2019</p>
+        </footer>
+        <script src = "js/index.js"></script>
+    </body>
+</html>

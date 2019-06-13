@@ -1,0 +1,114 @@
+body {
+  background-color: #e0fbfc;
+  background-image: url('../images/flowers-67839_1920.jpg');
+  /* image source: https://pixabay.com/illustrations/flowers-background-leaf-leaves-67839/ */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* --------------HEADER----------- */
+header {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 50px;
+  color: #b71212;
+}
+
+/* --------------MAIN CONTAINER----------- */
+.container {
+  display: block;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 5px;
+  height: 70vh;
+}
+
+.list {
+  display: block;
+  height: 55vh;
+  overflow-y: scroll;
+  font-size: 20px;
+}
+
+.list :hover {
+  background-color: #eebea0;
+}
+
+.list, .inputField {
+  background-image: url('../images/paper-753508_1280.jpg');
+  /* image source: https://pixabay.com/photos/paper-texture-scrapbooking-753508/ */
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 5px;
+}
+
+.note, .inputField {
+  display: grid;
+  align-items: center; /* aligns the grid along the column axis*/
+  justify-content: space-around; /* aligns the grid along the row axis */
+}
+
+.note {
+  font-family: 'Caveat', cursive;
+  border-bottom: 1.5px dotted grey;
+  grid-template-columns: 50% 30% 7% 7%;
+}
+
+.noteHead {
+  font-weight: bold;
+  color: #b71212;
+}
+
+.inputField {
+  grid-template-columns: 40% 40% 7% 7%;
+}
+
+#textBox, #deadLine, #editedText, #editedDeadline, {
+  width: 85%;
+  font-family: 'Caveat', cursive;
+  font-size: 19px;
+}
+
+/* --------------BUTTONS----------- */
+button {
+  width: 25px;
+  height: 25px;
+  border-style: none;
+  padding: 5px;
+}
+
+.edit {
+  background-image: url('../images/column.png');
+  /*image source https://www.flaticon.com/free-icon/column_1634822#term=edit&page=3&position=68 */
+  background-size: cover;
+  align-self: center;
+}
+
+.delete {
+  background-image: url('../images/x-button.png');
+  /*image source https://www.flaticon.com/free-icon/x-button_458594#term=delete&page=1&position=15 */
+  background-size: cover;
+}
+
+#save {
+  background-image: url('../images/save.png');
+  /*image source https://www.flaticon.com/free-icon/save_148730 */
+  background-size: cover;
+}
+
+#clear {
+  background-image: url('../images/cleaner.png');
+  /*image source https://www.flaticon.com/free-icon/cleaner_1590096 */
+  background-size: cover;
+}
+
+
+/* --------------FOOTER----------- */
+footer {
+  font-family: 'Marck Script', cursive;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 25px;
+}
